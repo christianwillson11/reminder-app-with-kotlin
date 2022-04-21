@@ -1,0 +1,12 @@
+Important documentation:
+
+--- Firestore Documentation ---
+https://firebase.google.com/docs/firestore/query-data/get-data#kotlin+ktx
+
+--- Choose Upload File ---
+https://www.youtube.com/watch?v=0Mi32_uf1MY
+https://stackoverflow.com/questions/48092579/selecting-multiple-files-from-android-file-system
+https://www.youtube.com/watch?v=j11O6DvkePg
+
+
+https://stackoverflow.com/questions/42608060/android-hide-an-element

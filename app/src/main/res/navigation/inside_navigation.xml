@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inside_navigation"
+    app:startDestination="@id/miHome">
+
+    <fragment
+        android:id="@+id/miHome"
+        android:name="com.example.reminderapp.ReminderListFragment"
+        android:label="fragment_reminder_list"
+        tools:layout="@layout/fragment_reminder_list" >
+        <action
+            android:id="@+id/action_miHome_to_reminderDetailActivity"
+            app:destination="@id/reminderDetailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/miSearch"
+        android:name="com.example.reminderapp.InviteFriendsFragment"
+        android:label="fragment_invite_friends"
+        tools:layout="@layout/fragment_invite_friends" />
+    <fragment
+        android:id="@+id/miProfile"
+        android:name="com.example.reminderapp.MyAccountFragment"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/miFriends"
+        android:name="com.example.reminderapp.FriendsListFragment"
+        android:label="fragment_friends_list"
+        tools:layout="@layout/fragment_friends_list" />
+    <activity
+        android:id="@+id/reminderDetailActivity"
+        android:name="com.example.reminderapp.ReminderDetailActivity"
+        android:label="activity_reminder_detail"
+        tools:layout="@layout/activity_reminder_detail" />
+</navigation>
